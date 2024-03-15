@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Simplified ERP System with React Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the front end code for a web application. The application allows users to manage products and orders and also order calendar views to see the expected delivery date of the order. It is built using React.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The system consists of the following pages:
 
-### `npm start`
+  1. **Dashboard:** Provides an overview of key metrics or features.
+  2. **Products Management:** Allows for the management of product listings.
+  3. **Orders Management:** Facilitates viewing and handling orders.
+  
+Additionally, a feature is implemented in orders page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Orders Calendar View:** A calendar interface displaying orders based on their expected delivery dates. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Run the Application
 
-### `npm test`
+1. **Clone the Repository:** Clone this repository to your local machine using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ```bash
+    git clone https://github.com/MrKishoreE/entnt-erp.git
+ ```
+   
+2. **Navigate to the Project Directory:** Change your current directory to the project directory:
 
-### `npm run build`
+3. **Install Dependencies:** Install the required dependencies using npm or yarn:
+ ```bash
+    npm install
+ ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Run the Application:** Start the development server:
+ ```bash
+    npm start
+ ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Access the Application:** Once the server is running, you can access the application by opening your web browser and navigating to http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Interacting with the Website
 
-### `npm run eject`
+### DASHBOARD
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  The Dashboard page provides an overview of product and order information.
+  ![screenshot](./screenshots/dashboard.png)
+### PRODUCT MANAGEMENT PAGE
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  On the Products page, you can view, add, edit, and delete products.
+  ![screenshot](./screenshots/products.png)
+### Adding a New Product
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  To add a new product, click on the "Add Product" button, fill in the required fields, and click "Save".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Editing a Product
 
-## Learn More
+  To edit a product, click on the "Edit" button next to the product you want to edit. Update the information and click "Save".
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ORDER PAGE
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  On the Orders page, you can view order details, update order status, and delete orders.
+![screenshot](./screenshots/orders.png)
+### Viewing Order Details
 
-### Code Splitting
+  On the Orders page, you can view details of each order by clicking on the "View Details" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Order Calender view
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  You can view and display the order with expected delivery date by clicking a particular date on a calender
+![screenshot](./screenshots/orderscalendar.png)
