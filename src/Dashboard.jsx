@@ -26,7 +26,7 @@ const Dashboard = ({products, orders}) => {
 			</NavLink>
 			</div>
 		    <div className='card'>
-			<NavLink style={{ color: '#FFF', textDecoration: 'none' }} to={"/products"} className={'active'}>
+			<NavLink style={{ color: '#FFF', textDecoration: 'none' }} to={"/orders"} className={'active'}>
 			<div className='card-inner'>
 			    <h3>Total Orders</h3>
 			    <BsMenuButtonWideFill className='card_icon'/>
