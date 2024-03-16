@@ -46,21 +46,13 @@ Additionally, a feature is implemented in orders page:
 
   On the Products page, you can view, add, edit, and delete products.
   ![screenshot](./screenshots/products.png)
-### Adding a New Product
 
-  To add a new product, click on the "Add Product" button, fill in the required fields, and click "Save".
-
-### Editing a Product
-
-  To edit a product, click on the "Edit" button next to the product you want to edit. Update the information and click "Save".
 
 ### ORDER PAGE
 
   On the Orders page, you can view order details, update order status, and delete orders.
 ![screenshot](./screenshots/orders.png)
-### Viewing Order Details
 
-  On the Orders page, you can view details of each order by clicking on the "View Details" button.
 
 ### Order Calender view
 
